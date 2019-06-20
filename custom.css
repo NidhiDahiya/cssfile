@@ -2,3 +2,15 @@
   background-color: blue;
   color: #000000;
 }
+body {
+  margin: 0 !important;
+  font-family: 'Lato', sans-serif;
+  overflow: hidden;
+  
+  height: 100%;
+	margin: 0;
+	background: #7F7FD5;
+	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+ 
+}
