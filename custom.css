@@ -2,15 +2,28 @@
   background-color: green;
   color: #000000;
 }
-body {
-  margin: 0 !important;
-  font-family: 'Lato', sans-serif;
-  overflow: hidden;
-  
+.bpw-layout {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
   height: 100%;
-	margin: 0;
+  border-left: 1px solid #ccc;
+  visibility: hidden;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  
+  margin: 0;
 	background: #7F7FD5;
 	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
  
+  
+  
 }
